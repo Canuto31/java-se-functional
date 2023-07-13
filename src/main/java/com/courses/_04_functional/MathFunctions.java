@@ -20,6 +20,7 @@ public class MathFunctions {
 
         Predicate<Integer> isEven = x -> x % 2 == 0;
 
+        isOdd.apply(4);
         isEven.test(4);
 
         Predicate<Student> isAprroved = student -> student.getQualification() >= 6.0;
