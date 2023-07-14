@@ -20,7 +20,7 @@ public class MathOperations2 {
         });
 
         System.out.println(add1MultiplyBy3.apply(5));
-        System.out.println("/////");
+        System.out.println("///////");
         System.out.println(andSquare.apply(3));
     }
 }
